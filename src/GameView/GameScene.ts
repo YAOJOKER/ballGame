@@ -30,6 +30,7 @@ class GameScene extends eui.Component{
     public initView(){
 		this.createBoard();
 		//this.createBall();
+		this.sendXY();
 	}
 	//创建球
 	public createBall(){
@@ -111,6 +112,7 @@ class GameScene extends eui.Component{
 		this.addEventListener(egret.Event.ENTER_FRAME, this.onEnterFrame, this);
 
 	}
+	//获胜条件
 	private gamewin(){
 		if(this.score_left.text=="9"){
 			this.win_left.visible=true;

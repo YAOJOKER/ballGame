@@ -29,6 +29,7 @@ var GameScene = (function (_super) {
     GameScene.prototype.initView = function () {
         this.createBoard();
         //this.createBall();
+        this.sendXY();
     };
     //创建球
     GameScene.prototype.createBall = function () {
@@ -62,7 +63,7 @@ var GameScene = (function (_super) {
         }
         console.log();
         //小球运动
-        gs.ball.ballMove(gs);
+        //gs.ball.ballMove();
         //碰撞检测
         //gs.hitting();
         //进球检测
@@ -107,6 +108,7 @@ var GameScene = (function (_super) {
         this.initView();
         this.addEventListener(egret.Event.ENTER_FRAME, this.onEnterFrame, this);
     };
+    //获胜条件
     GameScene.prototype.gamewin = function () {
         if (this.score_left.text == "9") {
             this.win_left.visible = true;

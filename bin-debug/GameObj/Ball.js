@@ -47,34 +47,34 @@ var Ball = (function (_super) {
             console.log(GameData.chooseside + "飞向右边");
         }
     };
-    Ball.prototype.ballMove = function (gs) {
+    Ball.prototype.ballMove = function (evt) {
         //旋转、转速
-        gs.ball.rotation += GameData.rotation;
+        this._ball.rotation += GameData.rotation;
         GameData.rotation = 10;
         //发射角度
         var angleShoot = Math.tan(GameData.angle);
         GameData.angle = 45;
         //球速
         GameData.ballspeed = 5;
-        gs.ball.x += this.directionX * GameData.ballspeed;
-        gs.ball.y += this.directionY * GameData.ballspeed * angleShoot;
+        this._ball.x += this.directionX * GameData.ballspeed;
+        this._ball.y += this.directionY * GameData.ballspeed * angleShoot;
         // 撞到墙壁改变方向(待划定球场区域，目前为舞台碰撞)
-        if (gs.ball.x >= 700) {
+        if (this._ball.x >= 700) {
             GameUtil.playSound("hit_mp3");
             this.directionX = -1;
             console.log("右");
         }
-        if (gs.ball.x <= 100) {
+        if (this._ball.x <= 100) {
             GameUtil.playSound("hit_mp3");
             this.directionX = 1;
             console.log("左");
         }
-        if (gs.ball.y <= 100) {
+        if (this._ball.y <= 100) {
             GameUtil.playSound("hit_mp3");
             this.directionY = 1;
             console.log("上");
         }
-        if (gs.ball.y >= 500) {
+        if (this._ball.y >= 500) {
             GameUtil.playSound("hit_mp3");
             this.directionY = -1;
             console.log("下");
