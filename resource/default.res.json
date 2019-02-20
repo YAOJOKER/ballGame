@@ -1,0 +1,220 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,ball_png,board_left_png,board_right_png,btn_close_png,btn_restart_png,btn_start_png,cover_jpg,field_png,goal-left_png,goal-right_png,goal_png,load_json,score_fnt,score_png,hit_mp3,board_mp3,win_png",
+			"name": "preload"
+		},
+		{
+			"keys": "load_json,cover_jpg,field_png",
+			"name": "load"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/Common/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/Common/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/Common/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/Common/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/Common/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Common/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Common/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/Common/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/Common/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/Common/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/Common/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/Common/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/Common/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/Common/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Common/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/Common/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Common/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Common/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/Common/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/Common/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/Common/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Common/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Common/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/Art/ball.png",
+			"type": "image",
+			"name": "ball_png"
+		},
+		{
+			"url": "assets/Art/board_left.png",
+			"type": "image",
+			"name": "board_left_png"
+		},
+		{
+			"url": "assets/Art/board_right.png",
+			"type": "image",
+			"name": "board_right_png"
+		},
+		{
+			"url": "assets/Art/btn_close.png",
+			"type": "image",
+			"name": "btn_close_png"
+		},
+		{
+			"url": "assets/Art/btn_restart.png",
+			"type": "image",
+			"name": "btn_restart_png"
+		},
+		{
+			"url": "assets/Art/btn_start.png",
+			"type": "image",
+			"name": "btn_start_png"
+		},
+		{
+			"url": "assets/Art/cover.jpg",
+			"type": "image",
+			"name": "cover_jpg"
+		},
+		{
+			"url": "assets/Art/field.png",
+			"type": "image",
+			"name": "field_png"
+		},
+		{
+			"url": "assets/Art/goal-left.png",
+			"type": "image",
+			"name": "goal-left_png"
+		},
+		{
+			"url": "assets/Art/goal-right.png",
+			"type": "image",
+			"name": "goal-right_png"
+		},
+		{
+			"url": "assets/Art/goal.png",
+			"type": "image",
+			"name": "goal_png"
+		},
+		{
+			"url": "assets/Art/load.json",
+			"type": "sheet",
+			"name": "load_json",
+			"subkeys": "load1_png,load2_png,load3_png,load4_png"
+		},
+		{
+			"url": "assets/Art/score.fnt",
+			"type": "font",
+			"name": "score_fnt"
+		},
+		{
+			"url": "assets/Art/score.png",
+			"type": "image",
+			"name": "score_png"
+		},
+		{
+			"url": "assets/Art/hit.mp3",
+			"type": "sound",
+			"name": "hit_mp3"
+		},
+		{
+			"url": "assets/Art/board.mp3",
+			"type": "sound",
+			"name": "board_mp3"
+		},
+		{
+			"name": "win_png",
+			"type": "image",
+			"url": "assets/Art/win.png"
+		}
+	]
+}

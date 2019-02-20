@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StartSceneSkin" width="800" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="cover_jpg" left="0" top="0"/>
+	<e:Button id="btn_start" label="" height="130" anchorOffsetX="175" width="350" horizontalCenter="0" verticalCenter="65" anchorOffsetY="65">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="90%" height="90%" width.down="100%" height.down="100%" horizontalCenter="0" verticalCenter="0" source="btn_start_png" source.down="btn_start_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

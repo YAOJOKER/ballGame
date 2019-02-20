@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Progressbar" width="400" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="load_json.load2_png" left="0" top="0"/>
+	<e:Image id="thumb" source="load_json.load1_png" x="40.75" y="35"/>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSceneSkin" width="800" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="field_png" left="0" top="0"/>
+	<e:Image source="goal-right_png" right="0" verticalCenter="0"/>
+	<e:Image source="goal-left_png" verticalCenter="0" left="0"/>
+	<e:Button id="btn_close" label="" x="727.5" y="24" width="35" height="35">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="90%" height="90%" width.down="100%" height.down="100%" horizontalCenter="0" verticalCenter="0" source="btn_close_png" source.down="btn_close_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:BitmapLabel id="score_left" width="44" height="44" anchorOffsetX="0" anchorOffsetY="0" font="score_fnt" verticalCenter="0" left="0"/>
+	<e:BitmapLabel id="score_right" width="44" height="44" anchorOffsetX="0" anchorOffsetY="0" font="score_fnt" text="" verticalCenter="0" right="0"/>
+	<e:Image id="win_left" source="win_png" x="89" width="300" height="200" verticalCenter="0" visible="false"/>
+	<e:Image id="win_right" source="win_png" x="413" width="300" height="200" verticalCenter="0" visible="false"/>
+	<e:Image id="board_left" source="board_left_png" x="150" width="40" height="150" touchEnabled="true" y="225"/>
+	<e:Image id="board_right" source="board_right_png" height="150" touchEnabled="true" y="225" width="40" scaleX="1" scaleY="1" x="610"/>
+</e:Skin>
